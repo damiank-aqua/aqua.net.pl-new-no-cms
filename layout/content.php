@@ -1,3 +1,3 @@
-<div class="container-fluid">
+<?php
 
-</div>
+require_once 'content/menu.php';
