@@ -1,7 +1,7 @@
 <?php
 
 $s_menu = array(
-    array('<i>dla firm</i> Handlowych',
+    1 => array('<i>dla firm</i> Handlowych',
         array(
             'informacja' => 'informacja',
             'kontakt' => 'kontakt',
@@ -12,7 +12,7 @@ $s_menu = array(
             'programy' => 'programy'
         )
     ),
-    array('<i>dla</i> Instalatorów',
+    2 => array('<i>dla</i> Instalatorów',
         array('Technika grzewcza',
             array(
                 'informacja' => 'informacja',
@@ -36,7 +36,7 @@ $s_menu = array(
             )
         )
     ),
-    array('<i>o</i> Nas',
+    3 => array('<i>o</i> Nas',
         array(
             'firma' => 'o firmie',
             'aktualnosci' => 'aktualnosci',

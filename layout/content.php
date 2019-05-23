@@ -1,3 +1,3 @@
 <?php
 
-require_once 'content/menu.php';
+require_once 'layout/content/menu.php';

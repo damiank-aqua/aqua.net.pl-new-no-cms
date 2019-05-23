@@ -5,4 +5,12 @@ body {
   padding: 0;
   color: #fff;
 }
+.menu-1-box {
+  width: 100%;
+  background: #333;
+}
+.menu-1-box .menu-1 .item {
+  padding: 5px;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
