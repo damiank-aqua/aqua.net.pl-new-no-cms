@@ -3,14 +3,27 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #fff;
+  color: #333;
 }
-.menu-1-box {
-  width: 100%;
+.menu-desktop {
   background: #333;
+  padding: 5px 0 5px;
 }
-.menu-1-box .menu-1 .item {
+.menu-desktop .menu-1,
+.menu-desktop .menu-2 {
+  width: 100%;
+}
+.menu-desktop .menu-1 em,
+.menu-desktop .menu-2 em {
+  font-size: 12px;
+}
+.menu-desktop .menu-1 .item,
+.menu-desktop .menu-2 .item {
   padding: 5px;
   text-align: center;
+}
+.menu-desktop .menu-1 .item a,
+.menu-desktop .menu-2 .item a {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */

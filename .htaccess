@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?content=$1 [NC]
+ErrorDocument 404 "Brak zasobu"

@@ -1,55 +1,44 @@
-<?php
+<div class="menu-desktop">
 
-//Zbudowanie z tablicy $s_menu, pierwszego, drugiego i trzeciego poziomu.
-//Poszczegolne odsylacze beda powiazane "id" - "source" i "destination"
+    <div class="container">
 
-echo '<div class="menu-1-box">';
+        <div class="menu-1">
 
-    echo '<div class="container">';
+            <div class="row">
 
-        echo '<div class="menu-1">';
+                <div class="col-12 col-lg-2 item"><a href="dla-firm-handlowych"><em>dla firm</em> Handlowych</a></div>
+                <div class="col-12 col-lg-2 item"><a href="dla-firm-wykonawczych"><em>dla firm</em> Wykonawczych</a></div>
+                <div class="col-12 col-lg-2 item"><a href="dla-instalatorow"><em>dla</em> Instalatorów</a></div>
+                <div class="col-12 col-lg-2 item"><a href="dla-wodociagow"><em>dla</em> Wodociągów</a></div>
+                <div class="col-12 col-lg-2 item"><a href="dla-przemyslu"><em>dla</em> Przemysłu</a></div>
+                <div class="col-12 col-lg-2 item"><a href="o-nas"><em>o</em> Nas</a></div>
 
-            echo '<div class="row">';
+            </div>
 
-                foreach ($s_menu as $index => $m) {
+        </div>
 
-                    $submenu[$index] = $m[1];
+        <?php if(isset($content) and isset($s_menuContent[$content]) and is_array($s_menuContent[$content]) and count($s_menuContent[$content]) > 0) { ?>
 
-                    echo '<div class="col item" id="source-'.$index.'">';
+            <div class="menu-2">
 
-                        echo $m[0];
+                <div class="row">
 
-                    echo '</div>';
+                    <?php
 
-                }
+                        foreach ($s_menuContent[$content] as $direct => $item) {
 
-            echo '</div>';
+                            echo '<div class="col-12 item"><a href="'.$content.','.$direct.'">'.$item.'</div>';
 
-        echo '</div>';
+                        }
 
-        var_dump($submenu);
+                    ?>
 
-        echo '<div class="menu-2">';
+                </div>
 
-            echo '<div class="row">';
+            </div>
 
-//                foreach ($submenu as $index => $m) {
-//
-//                    if(isset($m[1]))
-//                        $endmenu = $m[1];
-//
-//                    echo '<div class="col item" id="source-'.$index.'">';
-//
-//                    echo $m[0];
-//
-//                    echo '</div>';
-//
-//                }
+        <?php } ?>
 
-            echo '</div>';
+    </div>
 
-        echo '</div>';
-
-    echo '</div>';
-
-echo '</div>';
+</div>

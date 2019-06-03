@@ -2,15 +2,22 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
-    color: @white;
+    color: @black;
 }
-.menu-1-box {
-    width: 100%;
+.menu-desktop {
     background: @black;
-    .menu-1 {
+    padding: 5px 0 5px;
+    .menu-1, .menu-2 {
+        width: 100%;
+        em{
+            font-size: 12px;
+        }
         .item {
             padding: 5px;
             text-align: center;
+            a{
+                color: @white;
+            }
         }
     }
 }
