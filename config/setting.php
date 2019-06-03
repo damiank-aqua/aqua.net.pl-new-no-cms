@@ -1,8 +1,23 @@
 <?php
 
-$s_menuContent = array(
+$s_submenu = array(
     'dla-instalatorow' => array(
         'technika-grzewcza' => 'technika grzewcza',
         'nawodnienia' => 'nawodnienia'
     )
+);
+$s_menuContent = array(
+    'section' => array(
+        array('direct' => 'informacja', 'name' => 'informacja', 'icon' => 'informacja.png'),
+        array('direct' => 'kontakt', 'name' => 'kontakt', 'icon' => 'kontakt.png'),
+        array('direct' => 'producenci', 'name' => 'producenci', 'icon' => 'producenci.png'),
+        array('direct' => 'katalogi', 'name' => 'katalogi', 'icon' => 'katalogi.png'),
+        array('direct' => 'platforma', 'name' => 'platforma', 'icon' => 'b2b.png'),
+        array('direct' => 'e-sklepy', 'name' => 'e-sklepy', 'icon' => 'sklepy.png'),
+        array('direct' => 'programy', 'name' => 'programy', 'icon' => 'programy.png')
+    ),
+    'about' => array(
+
+    )
+
 );

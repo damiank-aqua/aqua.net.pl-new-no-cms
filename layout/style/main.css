@@ -5,25 +5,19 @@ body {
   padding: 0;
   color: #333;
 }
-.menu-desktop {
+.menu-1 {
   background: #333;
   padding: 5px 0 5px;
-}
-.menu-desktop .menu-1,
-.menu-desktop .menu-2 {
   width: 100%;
 }
-.menu-desktop .menu-1 em,
-.menu-desktop .menu-2 em {
+.menu-1 em {
   font-size: 12px;
 }
-.menu-desktop .menu-1 .item,
-.menu-desktop .menu-2 .item {
+.menu-1 .item {
   padding: 5px;
   text-align: center;
 }
-.menu-desktop .menu-1 .item a,
-.menu-desktop .menu-2 .item a {
+.menu-1 .item a {
   color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
