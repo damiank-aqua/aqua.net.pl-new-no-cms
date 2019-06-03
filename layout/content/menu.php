@@ -9,7 +9,7 @@
             <div class="col-12 col-lg-2 item"><a href="dla-instalatorow"><em>dla</em> Instalatorów</a></div>
             <div class="col-12 col-lg-2 item"><a href="dla-wodociagow"><em>dla</em> Wodociągów</a></div>
             <div class="col-12 col-lg-2 item"><a href="dla-przemyslu"><em>dla</em> Przemysłu</a></div>
-            <div class="col-12 col-lg-2 item"><a href="o-nas"><em>o</em> Nas</a></div>
+            <div class="col-12 col-lg-2 item"><a href="o-nas"><i class="fal fa-rocket"></i> <em>o</em> Nas</a></div>
 
         </div>
 
@@ -31,7 +31,7 @@
 
                 foreach ($s_submenu[$content] as $direct => $item) {
 
-                    echo '<div class="col-12 item"><a href="' . $content . ',' . $direct . '">' . $item . '</div>';
+                    echo '<div class="col-6 item"><a href="' . $content . ',' . $direct . '">'.$item['icon'].' '.$item['name'].'</div>';
 
                 }
 
@@ -74,29 +74,33 @@
 
     <div class="menu-3">
 
-        <div class="row">
+        <div class="container">
 
-            <?php
+            <div class="row">
 
-                $url1 = '';
+                <?php
 
-                if($content)
-                    $url1 .= $content;
+                    $url1 = '';
 
-                if($isSubmenu and $section)
-                    $url1 .= ','.$section;
+                    if($content)
+                        $url1 .= $content;
 
-                foreach ($menuContent as $item) {
+                    if($isSubmenu and $section)
+                        $url1 .= ','.$section;
 
-                    echo '<div class="col-12 item text-center">';
+                    foreach ($menuContent as $item) {
 
-                        echo '<a href="'.$url1.','.$item['direct'].'"><img src="layout/graphic/icon/'.$item['icon'].'"><br>'.$item['name'].'</a>';
+                        echo '<div class="col-12 col-md item text-center">';
 
-                    echo '</div>';
+                            echo '<a href="'.$url1.','.$item['direct'].'"><img src="layout/graphic/icon/'.$item['icon'].'"><br>'.$item['name'].'</a>';
 
-                }
+                        echo '</div>';
 
-            ?>
+                    }
+
+                ?>
+
+            </div>
 
         </div>
 

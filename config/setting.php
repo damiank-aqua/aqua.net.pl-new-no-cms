@@ -2,8 +2,8 @@
 
 $s_submenu = array(
     'dla-instalatorow' => array(
-        'technika-grzewcza' => 'technika grzewcza',
-        'nawodnienia' => 'nawodnienia'
+        'technika-grzewcza' => array('icon' => '<i class="far fa-fire-alt"></i>', 'name' => 'technika grzewcza'),
+        'nawodnienia' => array('icon' => '<i class="far fa-tint"></i>', 'name' => 'nawodnienia'),
     )
 );
 $s_menuContent = array(
