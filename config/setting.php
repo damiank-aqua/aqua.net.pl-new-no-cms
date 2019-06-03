@@ -17,7 +17,13 @@ $s_menuContent = array(
         array('direct' => 'programy', 'name' => 'programy', 'icon' => 'programy.png')
     ),
     'about' => array(
-
+        array('direct' => 'o-firmie', 'name' => 'o firmie', 'icon' => 'firma.png'),
+        array('direct' => 'aktualnosci', 'name' => 'aktualności', 'icon' => 'aktualnosci.png'),
+        array('direct' => 'nasze-wartosci', 'name' => 'nasze wartości', 'icon' => 'misja.png'),
+        array('direct' => 'nagrody', 'name' => 'nagrody', 'icon' => 'nagrody.png'),
+        array('direct' => 'oddzialy', 'name' => 'oddzialy', 'icon' => 'oddzialy.png'),
+        array('direct' => 'kontakt', 'name' => 'kontakt', 'icon' => 'kontakt.png'),
+        array('direct' => 'kariera', 'name' => 'kariera', 'icon' => 'producenci.png')
     )
 
 );
