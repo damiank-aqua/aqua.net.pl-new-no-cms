@@ -56,4 +56,18 @@ body {
 .menu-3 a {
   color: #333;
 }
+.logo {
+  text-align: center;
+}
+.content {
+  min-height: 60%;
+}
+.footer {
+  width: 100%;
+  color: #fff;
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  min-height: 40%;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,21 +1,26 @@
-<div class="menu-1">
+<?php if(isset($s_menu) and is_array($s_menu) and count($s_menu) > 0) { ?>
 
-    <div class="container">
+    <div class="menu-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-1"><div class="logo"><a href=""><img src="layout/graphic/logo.png"></a></div></div>
+                <?php
 
-        <div class="row">
+                    foreach ($s_menu as $m) {
 
-            <div class="col-12 col-lg-2 item"><a href="dla-firm-handlowych"><em>dla firm</em> Handlowych</a></div>
-            <div class="col-12 col-lg-2 item"><a href="dla-firm-wykonawczych"><em>dla firm</em> Wykonawczych</a></div>
-            <div class="col-12 col-lg-2 item"><a href="dla-instalatorow"><em>dla</em> Instalatorów</a></div>
-            <div class="col-12 col-lg-2 item"><a href="dla-wodociagow"><em>dla</em> Wodociągów</a></div>
-            <div class="col-12 col-lg-2 item"><a href="dla-przemyslu"><em>dla</em> Przemysłu</a></div>
-            <div class="col-12 col-lg-2 item"><a href="o-nas"><i class="fal fa-rocket"></i> <em>o</em> Nas</a></div>
+                        echo '<div class="col-12 col-lg-2 item"><a href="'.$m['direct'].'">'.$m['name'].'</a></div >';
+
+                    }
+
+                ?>
+                <div class="col-12 col-lg-1 item" ><a href = "o-nas" ><i class="fal fa-rocket" ></i > <em > o</em > Nas</a ></div >
+            </div>
 
         </div>
 
     </div>
 
-</div>
+<?php } ?>
 
 <?php $isSubmenu = false ?>
 

@@ -1,4 +1,11 @@
 <?php
+$s_menu = array(
+    array('direct' => 'dla-firm-handlowych', 'name' => 'dla firm Handlowych'),
+    array('direct' => 'dla-firm-wykonawczych', 'name' => 'dla firm Wykonawczych'),
+    array('direct' => 'dla-instalatorow', 'name' => 'dla Instalatorów'),
+    array('direct' => 'dla-wodociagow', 'name' => 'dla Wodociagow'),
+    array('direct' => 'dla-przemyslu', 'name' => 'dla Przemysłu')
+);
 
 $s_submenu = array(
     'dla-instalatorow' => array(
