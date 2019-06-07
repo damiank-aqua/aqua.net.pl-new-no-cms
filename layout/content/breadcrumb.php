@@ -65,32 +65,32 @@ if(isset($s_menuContent['section'])) {
 
 }
 
-echo '<div class="container-fluid">';
+$countBreadcrumb = count($breadcrumb);
 
-    echo '<div class="row">';
+if($countBreadcrumb > 0) {
 
-        $countBreadcrumb = count($breadcrumb);
+    echo '<div class="container-fluid">';
 
-        if($countBreadcrumb > 0) {
+        echo '<div class="row">';
 
             echo '<div class="col-12">';
 
                 foreach ($breadcrumb as $j => $b) {
 
-                    if($j < ($countBreadcrumb - 1))
+                    if ($j < ($countBreadcrumb - 1))
                         echo '<a href="' . $b['direct'] . '">';
 
                     echo $b['name'];
 
-                    if($j < ($countBreadcrumb - 1))
-                        echo '</a> '.$arrow.' ';
+                    if ($j < ($countBreadcrumb - 1))
+                        echo '</a> ' . $arrow . ' ';
 
                 }
 
             echo '</div>';
 
-        }
+        echo '</div>';
 
     echo '</div>';
 
-echo '</div>';
+}
