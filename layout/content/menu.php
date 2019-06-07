@@ -3,17 +3,28 @@
     <div class="menu-1">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-1"><div class="logo"><a href=""><img src="layout/graphic/logo.png"></a></div></div>
+                <div class="col-12 col-lg-1"><div class="logo"><a href="<?php echo $s_startPage['direct']; ?>" title="<?php echo $s_startPage['name']; ?>"><img src="layout/graphic/logo.png"></a></div></div>
                 <?php
 
-                    foreach ($s_menu as $m) {
+                    $countMenu = count($s_menu);
 
-                        echo '<div class="col-12 col-lg-2 item"><a href="'.$m['direct'].'">'.$m['name'].'</a></div >';
+                    foreach ($s_menu as $i => $m) {
+
+                        $col = 'col-lg-2';
+                        $nameDisplay = $m['name'];
+                        if($i == ($countMenu - 1)) {
+
+                            $col = 'col-lg-1';
+                            $nameDisplay = '<i class="fal fa-rocket" ></i> '.$nameDisplay;
+
+                        }
+
+                        echo '<div class="col-12 '.$col.' item"><a href="'.$m['direct'].'">'.$nameDisplay.'</a></div >';
 
                     }
 
                 ?>
-                <div class="col-12 col-lg-1 item" ><a href = "o-nas" ><i class="fal fa-rocket" ></i > <em > o</em > Nas</a ></div >
+
             </div>
 
         </div>
@@ -36,7 +47,7 @@
 
                 foreach ($s_submenu[$content] as $direct => $item) {
 
-                    echo '<div class="col-6 item"><a href="' . $content . ',' . $direct . '">'.$item['icon'].' '.$item['name'].'</div>';
+                    echo '<div class="col-6 item"><a href="' . $content . ',' . $direct . '">'.$item['icon'].' '.$item['name'].'</a></div>';
 
                 }
 
@@ -61,19 +72,23 @@
 
     if(!$isSubmenu or ($isSubmenu and $section)) {
 
-        if($content and $content != 'o-nas') {
+        if($content != $s_startPage['direct']) {
 
-            $menuContent = $s_menuContent['section'];
+            if ($content and $content != 'o-nas') {
 
-        }else {
+                $menuContent = $s_menuContent['section'];
 
-            $menuContent = $s_menuContent['about'];
+            } else {
+
+                $menuContent = $s_menuContent['about'];
+
+            }
 
         }
 
     }
 
-    if($content and $menuContent and is_array($menuContent) and count($menuContent) > 0) {
+    if($menuContent and is_array($menuContent) and count($menuContent) > 0) {
 
 ?>
 

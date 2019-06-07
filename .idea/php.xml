@@ -15,6 +15,7 @@
       <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/composer" />
       <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/components/jquery" />
       <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/filp/whoops" />
+      <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/psr/log" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />

@@ -2,7 +2,12 @@
 
 <div class="content">
 
-    <?php require_once 'layout/content/breadcrumb.php'; ?>
+    <?php
+
+        if($content != $s_startPage['direct'])
+            require_once 'layout/content/breadcrumb.php';
+
+    ?>
 
 </div>
 
