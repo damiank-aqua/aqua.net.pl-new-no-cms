@@ -28,6 +28,11 @@ body {
 .menu-3 .item a:hover {
   text-decoration: none;
 }
+.menu-1 .active,
+.menu-2 .active,
+.menu-3 .active {
+  color: #23abf0;
+}
 .menu-1 {
   background-color: #333;
   font-size: 15px;
@@ -61,6 +66,11 @@ body {
 }
 .content {
   min-height: 60%;
+}
+.content .title {
+  text-align: right;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 .footer {
   width: 100%;

@@ -19,7 +19,7 @@
 
                         }
 
-                        echo '<div class="col-12 '.$col.' item"><a href="'.$m['direct'].'">'.$nameDisplay.'</a></div >';
+                        echo '<div class="col-12 '.$col.' item"><a href="'.$m['direct'].'" class="'.$m['direct'].'">'.$nameDisplay.'</a></div >';
 
                     }
 
@@ -47,7 +47,7 @@
 
                 foreach ($s_submenu[$content] as $direct => $item) {
 
-                    echo '<div class="col-6 item"><a href="' . $content . ',' . $direct . '">'.$item['icon'].' '.$item['name'].'</a></div>';
+                    echo '<div class="col-6 item"><a href="' . $content . ',' . $direct . '" class="'.$direct.'">'.$item['icon'].' '.$item['name'].'</a></div>';
 
                 }
 
@@ -112,7 +112,7 @@
 
                         echo '<div class="col-12 col-md item text-center">';
 
-                            echo '<a href="'.$url1.','.$item['direct'].'"><img src="layout/graphic/icon/'.$item['icon'].'"><br>'.$item['name'].'</a>';
+                            echo '<a href="'.$url1.','.$item['direct'].'" class="'.$item['direct'].'"><img src="layout/graphic/icon/'.$item['icon'].'"><br>'.$item['name'].'</a>';
 
                         echo '</div>';
 

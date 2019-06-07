@@ -69,23 +69,33 @@ $countBreadcrumb = count($breadcrumb);
 
 if($countBreadcrumb > 0) {
 
-    echo '<div class="container-fluid">';
+    echo '<div class="im-breadcrumb">';
 
-        echo '<div class="row">';
+        echo '<div class="container-fluid">';
 
-            echo '<div class="col-12">';
+            echo '<div class="row">';
 
-                foreach ($breadcrumb as $j => $b) {
+                echo '<div class="col-12">';
 
-                    if ($j < ($countBreadcrumb - 1))
-                        echo '<a href="' . $b['direct'] . '">';
+                    foreach ($breadcrumb as $j => $b) {
 
-                    echo $b['name'];
+                        if ($j < ($countBreadcrumb - 1))
+                            echo '<a href="' . $b['direct'] . '">';
 
-                    if ($j < ($countBreadcrumb - 1))
-                        echo '</a> ' . $arrow . ' ';
+                        echo $b['name'];
 
-                }
+                        if ($j < ($countBreadcrumb - 1)) {
+
+                            echo '</a> ' . $arrow . ' ';
+
+                        }else{
+
+                            $namePage = $b['name'];
+
+                        }
+                    }
+
+                echo '</div>';
 
             echo '</div>';
 
