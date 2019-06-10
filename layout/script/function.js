@@ -15,7 +15,7 @@ function setActiveMenu() {
 
     for($i = 0; $i < $countUrlArray; $i++) {
 
-        $('.' + $urlArray[$i] + ':visible').addClass('active');
+        $('.' + $urlArray[$i] + ':visible').addClass('active', 500);
 
     }
 
