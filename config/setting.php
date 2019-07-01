@@ -37,3 +37,23 @@ $s_menuContent = array(
     )
 
 );
+$s_shop = array(
+    'zaworyantyskzeniowe-pl' => array(
+        'name' => 'zaworyanyskazeniowe.pl',
+        'content' => '',
+        'url' => ''),
+    'mac3-pl' => array(
+        'name' => 'zaworyanyskazeniowe.pl',
+        'content' => '',
+        'url' => '')
+);
+$s_shopBox = array(
+    'dla-firm-handlowych' => array(
+        'mac3-pl',
+        'zaworyantyskazeniowe-pl'
+    ),
+    'dla-firm-wykonawczych' => array(
+        'zaworyantyskazeniowe-pl',
+        'mac3-pl'
+)
+);

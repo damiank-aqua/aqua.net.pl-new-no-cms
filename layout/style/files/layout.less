@@ -5,6 +5,9 @@ html, body{
     color: @black;
     font-size: 13px;
 }
+body, button, a, label, input, span, nav, div, p, ul, li{
+    font-family: 'Sintony', sans-serif;
+}
 .menu-1, .menu-2, .menu-3 {
     padding: 5px 0 5px;
     width: 100%;
@@ -24,9 +27,12 @@ html, body{
 }
 .menu-1{
     background-color: @black;
-    font-size: 15px;
+    font-size: 14px;
     a{
         color: @white;
+        em{
+            font-size: x-small;
+        }
     }
 }
 .menu-2{
@@ -52,16 +58,28 @@ html, body{
 }
 .logo{
     text-align: center;
+    img{
+        .spin();
+    }
+}
+.slide{
+    i{
+        font-size: 40px;
+    }
 }
 .content{
-    min-height: 60%;
     .im-breadcrumb{
-
+        padding: 5px;
     }
     .title{
-        text-align: right;
-        font-size: 20px;
+        font-size: 14px;
         text-transform: uppercase;
+        p{
+            float: right;
+            padding: 11px 10px 8px;
+            background-color: @blue;
+            color: @white;
+        }
     }
 }
 .footer{

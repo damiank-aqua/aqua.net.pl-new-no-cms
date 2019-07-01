@@ -12,12 +12,16 @@
 
                         $col = 'col-lg-2';
                         $nameDisplay = $m['name'];
-                        if($i == ($countMenu - 1)) {
 
+                        $nameDisplay = str_replace('dla firm ', '<em>dla firm</em> ', $nameDisplay);
+
+                        if(!stristr($nameDisplay, '<em>'))
+                            $nameDisplay = str_replace('dla ', '<em>dla</em> ', $nameDisplay);
+
+                        $nameDisplay = str_replace('o ', '<em>o</em> ', $nameDisplay);
+
+                        if($i == ($countMenu - 1))
                             $col = 'col-lg-1';
-                            $nameDisplay = '<i class="fal fa-rocket" ></i> '.$nameDisplay;
-
-                        }
 
                         echo '<div class="col-12 '.$col.' item"><a href="'.$m['direct'].'" class="'.$m['direct'].'">'.$nameDisplay.'</a></div >';
 

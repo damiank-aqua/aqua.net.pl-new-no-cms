@@ -8,7 +8,7 @@ echo '<div class="title">';
 
             echo '<div class="col-12">';
 
-                echo $namePage;
+                echo '<p>'.$namePage.'</p>';
 
             echo '</div>';
 
@@ -17,4 +17,3 @@ echo '<div class="title">';
     echo '</div>';
 
 echo '</div>';
-

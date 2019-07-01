@@ -8,3 +8,5 @@ require_once 'php/whoops.php';
 require_once 'config/setting.php';
 
 require_once 'config/extract.php';
+
+require_once 'php/script/breadcrumb.php';

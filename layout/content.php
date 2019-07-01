@@ -1,5 +1,15 @@
 <?php require_once 'layout/content/menu.php'; ?>
 
+<?php
+
+if($content == $s_startPage['direct']) {
+
+    require_once 'layout/content/slider.php';
+
+}
+
+?>
+
 <div class="content">
 
     <?php

@@ -3,4 +3,31 @@
 <link rel="stylesheet" href="module/fontawesome/css/all.css">
 <link rel="stylesheet" href="app/composer/vendor/twbs/bootstrap/dist/css/bootstrap.css">
 <link rel="stylesheet" href="layout/style/main.css">
-<title>aqua.net.pl</title>
+<?php
+    $titleDisplay = '';
+    if($countBreadcrumb > 0) {
+
+        foreach ($breadcrumb as $b) {
+
+            $titleDisplay .= $b['name'].' - ';
+
+        }
+
+        if(count($breadcrumb) > 1) {
+
+            $titleDisplay = substr($titleDisplay, 0, -3);
+
+        }else{
+
+            $titleDisplay .= 'aqua.net.pl';
+
+        }
+
+    }else{
+
+        $titleDisplay = 'aqua.net.pl';
+
+    }
+?>
+<title><?php echo $titleDisplay; ?></title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sintony">
