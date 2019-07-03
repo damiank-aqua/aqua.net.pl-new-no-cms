@@ -16,31 +16,8 @@ echo '<div class="col-12">';
 
     $contentFilePath = 'data/'.$dirPath.'.php';
 
-    if(is_file($contentFilePath)) {
-
+    if(is_file($contentFilePath))
         require_once $contentFilePath;
-
-    }
-
-//    if (is_dir('data/' . $content)) {
-//
-//        $dirPath = 'data/' . $content;
-//
-//        if($section) {
-//
-//            $file = $section;
-//
-//        }else{
-//
-//            $file = 'start';
-//
-//        }
-//
-//        $dirPath .= '/'.$file.'.php';
-//
-//        require_once $dirPath;
-//
-//    }
 
 echo '</div>';
 
