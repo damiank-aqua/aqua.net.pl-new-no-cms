@@ -55,5 +55,5 @@ $s_shopBox = array(
     'dla-firm-wykonawczych' => array(
         'zaworyantyskazeniowe-pl',
         'mac3-pl'
-)
+    )
 );

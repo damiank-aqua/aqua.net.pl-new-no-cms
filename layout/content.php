@@ -22,6 +22,8 @@ if($content == $s_startPage['direct']) {
 
         }
 
+        require_once 'layout/content/content.php';
+
     ?>
 
 </div>

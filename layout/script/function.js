@@ -15,7 +15,17 @@ function setActiveMenu() {
 
     for($i = 0; $i < $countUrlArray; $i++) {
 
-        $('.' + $urlArray[$i] + ':visible').addClass('active', 500);
+        $('.' + $urlArray[$i] + ':visible').addClass('active');
+
+    }
+
+    if($('.menu-3').length > 0 && $url.indexOf('o-nas') == -1 && $('.menu-3').find('a.active').length == 0) {
+
+        $url += ',' + 'informacja';
+
+        $url = $url.replace(':', ',');
+
+        window.location = $url;
 
     }
 
