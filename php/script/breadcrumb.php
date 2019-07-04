@@ -6,13 +6,17 @@ $breadcrumb = array();
 
 array_push($breadcrumb, array('direct' => $s_startPage['direct'], 'name' => $s_startPage['name']));
 
+$namePage = $s_startPage['name'];
+
 if(isset($s_menu)) {
 
     foreach ($s_menu as $m) {
 
-        if($m['direct'] == $content) {
+        if($content == $m['system']) {
 
             array_push($breadcrumb, array('direct' => $m['direct'], 'name' => $m['name']));
+
+            $namePage = $m['name'];
 
             break;
 
@@ -24,7 +28,7 @@ if(isset($s_menu)) {
 
 if(isset($s_submenu) and isset($s_submenu[$content][$section])) {
 
-    array_push($breadcrumb, array('direct' => $content.','.$section, 'name' => $s_submenu[$content][$section]['name']));
+    array_push($breadcrumb, array('direct' => $content.','.$s_submenu[$content][$section]['link'], 'name' => $s_submenu[$content][$section]['name']));
 
 }
 

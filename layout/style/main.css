@@ -96,6 +96,7 @@ li {
 }
 .slide i {
   font-size: 40px;
+  color: #aaa;
 }
 .content .im-breadcrumb {
   padding: 5px;
@@ -117,5 +118,24 @@ li {
   padding: 20px;
   text-align: center;
   min-height: 40%;
+}
+.information h3 {
+  font-size: 14px;
+  color: #fff;
+  background-color: #23abf0;
+  float: right;
+  padding: 6px;
+  text-transform: uppercase;
+}
+.information img {
+  margin: 15px 15px 15px 0;
+  float: left;
+}
+.information .text {
+  padding-top: 6px;
+  line-height: 30px;
+}
+.clear {
+  clear: both;
 }
 /*# sourceMappingURL=main.css.map */

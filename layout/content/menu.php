@@ -23,7 +23,7 @@
                         if($i == ($countMenu - 1))
                             $col = 'col-lg-1';
 
-                        echo '<div class="col-12 '.$col.' item"><a href="'.$m['direct'].'" class="'.$m['direct'].'">'.$nameDisplay.'</a></div >';
+                        echo '<div class="col-12 '.$col.' item"><a href="'.$m['direct'].'" class="'.$m['system'].'">'.$nameDisplay.'</a></div >';
 
                     }
 
@@ -37,7 +37,7 @@
 
 <?php } ?>
 
-<?php $isSubmenu = false ?>
+<?php $isSubmenu = false; ?>
 
 <?php if($content and isset($s_submenu[$content]) and is_array($s_submenu[$content]) and count($s_submenu[$content]) > 0) { ?>
 
@@ -51,7 +51,7 @@
 
                 foreach ($s_submenu[$content] as $direct => $item) {
 
-                    echo '<div class="col-6 item"><a href="' . $content . ',' . $direct . '" class="'.$direct.'">'.$item['icon'].' '.$item['name'].'</a></div>';
+                    echo '<div class="col-6 item"><a href="' . $content . ',' . $item['link'] . '" class="'.$direct.'">'.$item['icon'].' '.$item['name'].'</a></div>';
 
                 }
 

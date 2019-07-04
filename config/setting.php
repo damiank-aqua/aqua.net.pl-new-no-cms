@@ -2,18 +2,18 @@
 $s_startPage = array('direct' => 'strona-glowna', 'name' => 'Strona główna');
 
 $s_menu = array(
-    array('direct' => 'dla-firm-handlowych,informacja', 'name' => 'dla firm Handlowych'),
-    array('direct' => 'dla-firm-wykonawczych,informacja', 'name' => 'dla firm Wykonawczych'),
-    array('direct' => 'dla-instalatorow', 'name' => 'dla Instalatorów'),
-    array('direct' => 'dla-wodociagow,informacja', 'name' => 'dla Wodociagow'),
-    array('direct' => 'dla-przemyslu,informacja', 'name' => 'dla Przemysłu'),
-    array('direct' => 'o-nas,o-firmie', 'name' => 'o Nas')
+    array('direct' => 'dla-firm-handlowych,informacja', 'name' => 'dla firm Handlowych', 'system' => 'dla-firm-handlowych'),
+    array('direct' => 'dla-firm-wykonawczych,informacja', 'name' => 'dla firm Wykonawczych', 'system' => 'dla-firm-wykonawczych'),
+    array('direct' => 'dla-instalatorow', 'name' => 'dla Instalatorów', 'system' => 'dla-instalatorow'),
+    array('direct' => 'dla-wodociagow,informacja', 'name' => 'dla Wodociagow', 'system' => 'dla-wodociagow'),
+    array('direct' => 'dla-przemyslu,informacja', 'name' => 'dla Przemysłu', 'system' => 'dla-przemyslu'),
+    array('direct' => 'o-nas,o-firmie', 'name' => 'o Nas', 'system' => 'o-nas')
 );
 
 $s_submenu = array(
     'dla-instalatorow' => array(
-        'technika-grzewcza,informacja' => array('icon' => '<i class="far fa-fire-alt"></i>', 'name' => 'technika grzewcza'),
-        'nawodnienia,informacja' => array('icon' => '<i class="far fa-tint"></i>', 'name' => 'nawodnienia'),
+        'technika-grzewcza' => array('icon' => '<i class="far fa-fire-alt"></i>', 'name' => 'technika grzewcza', 'link' => 'technika-grzewcza,informacja'),
+        'nawodnienia' => array('icon' => '<i class="far fa-tint"></i>', 'name' => 'nawodnienia', 'link' => 'nawodnienia,informacja'),
     )
 );
 $s_menuContent = array(

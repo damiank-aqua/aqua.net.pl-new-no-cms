@@ -21,10 +21,6 @@ if($countBreadcrumb > 0) {
 
             echo '</a> ' . $arrow . ' ';
 
-        }else{
-
-            $namePage = $b['name'];
-
         }
     }
 
