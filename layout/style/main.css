@@ -3,8 +3,9 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #000;
   font-size: 13px;
+  overflow-x: hidden;
 }
 body,
 button,
@@ -17,7 +18,7 @@ div,
 p,
 ul,
 li {
-  font-family: 'Sintony', sans-serif;
+  font-family: "Century Gothic";
 }
 .menu-1,
 .menu-2,
@@ -47,8 +48,8 @@ li {
   color: #23abf0;
 }
 .menu-1 {
-  background-color: #333;
-  font-size: 14px;
+  background-color: #000;
+  font-size: 15px;
 }
 .menu-1 a {
   color: #fff;
@@ -75,7 +76,7 @@ li {
   background-color: #eee;
 }
 .menu-3 a {
-  color: #333;
+  color: #000;
 }
 .logo {
   text-align: center;
@@ -94,9 +95,21 @@ li {
     transform: rotate(360deg);
   }
 }
+.slide {
+  line-height: 26px;
+}
+.slide h3 {
+  font-size: 32px;
+  font-weight: bolder;
+}
 .slide i {
   font-size: 40px;
   color: #aaa;
+}
+.carousel-caption {
+  color: #000;
+  background-color: #fff;
+  opacity: 0.8;
 }
 .content .im-breadcrumb {
   padding: 5px;
@@ -114,7 +127,7 @@ li {
 .footer {
   width: 100%;
   color: #fff;
-  background-color: #333;
+  background-color: #000;
   padding: 20px;
   text-align: center;
   min-height: 40%;

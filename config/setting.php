@@ -37,6 +37,15 @@ $s_menuContent = array(
     )
 
 );
+$s_slider = array(
+    '1.jpg' => array(
+        'title' => 'systemy nawadniające',
+        'content' => 'Najwięksi producenci: Rain SPA, Hunter, RainBird, Toro.<br>
+                      Profesjonalne doradztwo. Doświadczenie od ponad 15 lat.<br>
+                      Pełna dostępność towaru w 16 oddziałach'
+    )
+);
+
 $s_shop = array(
     'zaworyantyskzeniowe-pl' => array(
         'name' => 'zaworyanyskazeniowe.pl',

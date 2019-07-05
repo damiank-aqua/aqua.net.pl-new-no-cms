@@ -14,6 +14,11 @@
 
                         echo '<div class="carousel-item'.$active.'">';
 
+                        echo '<div class="carousel-caption d-none d-md-block" style="bottom: unset; top: 80px">
+                              <h3>'.$s_slider[$s]['title'].'</h3>
+                              '.($s_slider[$s]['content'] != '' ? '<p>'.$s_slider[$s]['content'].'</p>' : '').'
+                              </div>';
+
                         echo '<img class="d-block w-100" src="layout/graphic/slider/'.$s.'" alt="Slider">';
 
                         echo '</div>';
@@ -27,12 +32,14 @@
                     
                     ?>
                 </div>
+                <?php if(count($slider) > 3) { ?>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <i class="fal fa-chevron-circle-left"></i>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                     <i class="fal fa-chevron-circle-right"></i>
                 </a>
+                <?php } ?>
                 <?php
 
                 $active = ' class="active"';

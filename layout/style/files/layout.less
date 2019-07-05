@@ -4,9 +4,10 @@ html, body{
     padding: 0;
     color: @black;
     font-size: 13px;
+    overflow-x: hidden;
 }
 body, button, a, label, input, span, nav, div, p, ul, li{
-    font-family: 'Sintony', sans-serif;
+    font-family: "Century Gothic";
 }
 .menu-1, .menu-2, .menu-3 {
     padding: 5px 0 5px;
@@ -27,7 +28,7 @@ body, button, a, label, input, span, nav, div, p, ul, li{
 }
 .menu-1{
     background-color: @black;
-    font-size: 14px;
+    font-size: 15px;
     a{
         color: @white;
         em{
@@ -63,10 +64,20 @@ body, button, a, label, input, span, nav, div, p, ul, li{
     }
 }
 .slide{
+    line-height: 26px;
+    h3{
+        font-size: 32px;
+        font-weight: bolder;
+    }
     i{
         font-size: 40px;
         color: @gray;
     }
+}
+.carousel-caption{
+    color: @black;
+    background-color: @white;
+    .opacity(0.8);
 }
 .content{
     .im-breadcrumb{
