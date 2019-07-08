@@ -12,8 +12,8 @@ $s_menu = array(
 
 $s_submenu = array(
     'dla-instalatorow' => array(
-        'technika-grzewcza' => array('icon' => '<i class="far fa-fire-alt"></i>', 'name' => 'technika grzewcza', 'link' => 'technika-grzewcza,informacja'),
-        'nawodnienia' => array('icon' => '<i class="far fa-tint"></i>', 'name' => 'nawodnienia', 'link' => 'nawodnienia,informacja'),
+        'technika-grzewcza' => array('icon' => '<p style="margin:0 42px 0 0"><i class="far fa-fire-alt fa-2x"></i></p>', 'name' => 'technika grzewcza', 'link' => 'technika-grzewcza,informacja'),
+        'nawodnienia' => array('icon' => '<p style="margin:0 0 0 30px"><i class="far fa-tint fa-2x"></i></p>', 'name' => 'nawodnienia', 'link' => 'nawodnienia,informacja'),
     )
 );
 $s_menuContent = array(
@@ -38,8 +38,26 @@ $s_menuContent = array(
 
 );
 $s_slider = array(
-    '1.jpg' => array(
+    '1-nawadnianie.jpg' => array(
         'title' => 'systemy nawadniające',
+        'content' => 'Najwięksi producenci: Rain SPA, Hunter, RainBird, Toro.<br>
+                      Profesjonalne doradztwo. Doświadczenie od ponad 15 lat.<br>
+                      Pełna dostępność towaru w 16 oddziałach'
+    ),
+    '2-pompy.jpg' => array(
+        'title' => 'systemy pompowe',
+        'content' => 'Najwięksi producenci: Rain SPA, Hunter, RainBird, Toro.<br>
+                      Profesjonalne doradztwo. Doświadczenie od ponad 15 lat.<br>
+                      Pełna dostępność towaru w 16 oddziałach'
+    ),
+    '3-armatura.jpg' => array(
+        'title' => 'armatura',
+        'content' => 'Najwięksi producenci: Rain SPA, Hunter, RainBird, Toro.<br>
+                      Profesjonalne doradztwo. Doświadczenie od ponad 15 lat.<br>
+                      Pełna dostępność towaru w 16 oddziałach'
+    ),
+    '4-grzewcza.jpg' => array(
+        'title' => 'technika grzewcza',
         'content' => 'Najwięksi producenci: Rain SPA, Hunter, RainBird, Toro.<br>
                       Profesjonalne doradztwo. Doświadczenie od ponad 15 lat.<br>
                       Pełna dostępność towaru w 16 oddziałach'

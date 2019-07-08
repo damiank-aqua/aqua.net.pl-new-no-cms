@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="module/fontawesome/css/all.css">
 <link rel="stylesheet" href="app/composer/vendor/twbs/bootstrap/dist/css/bootstrap.css">
 <link rel="stylesheet" href="layout/style/main.css">
+<link href='https://fonts.googleapis.com/css?family=Muli&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <?php
     $titleDisplay = '';
     if($countBreadcrumb > 0) {
