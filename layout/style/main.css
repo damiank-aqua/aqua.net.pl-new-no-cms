@@ -18,7 +18,8 @@ div,
 p,
 ul,
 li {
-  font-family: "Century Gothic";
+  font-family: 'Didact Gothic', sans-serif;
+  letter-spacing: 0.5px;
 }
 .menu-1,
 .menu-2,

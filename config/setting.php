@@ -5,15 +5,15 @@ $s_menu = array(
     array('direct' => 'dla-firm-handlowych,informacja', 'name' => 'dla firm Handlowych', 'system' => 'dla-firm-handlowych'),
     array('direct' => 'dla-firm-wykonawczych,informacja', 'name' => 'dla firm Wykonawczych', 'system' => 'dla-firm-wykonawczych'),
     array('direct' => 'dla-instalatorow', 'name' => 'dla Instalatorów', 'system' => 'dla-instalatorow'),
-    array('direct' => 'dla-wodociagow,informacja', 'name' => 'dla Wodociagow', 'system' => 'dla-wodociagow'),
+    array('direct' => 'dla-wodociagow,informacja', 'name' => 'dla Wodociagów', 'system' => 'dla-wodociagow'),
     array('direct' => 'dla-przemyslu,informacja', 'name' => 'dla Przemysłu', 'system' => 'dla-przemyslu'),
     array('direct' => 'o-nas,o-firmie', 'name' => 'o Nas', 'system' => 'o-nas')
 );
 
 $s_submenu = array(
     'dla-instalatorow' => array(
-        'technika-grzewcza' => array('icon' => '<i class="far fa-fire-alt"></i>', 'name' => 'technika grzewcza', 'link' => 'technika-grzewcza,informacja'),
-        'nawodnienia' => array('icon' => '<i class="far fa-tint"></i>', 'name' => 'nawodnienia', 'link' => 'nawodnienia,informacja'),
+        'technika-grzewcza' => array('icon' => '<p style="margin:0 42px 0 0"><i class="far fa-fire-alt fa-2x"></i></p>', 'name' => 'technika grzewcza', 'link' => 'technika-grzewcza,informacja'),
+        'nawodnienia' => array('icon' => '<p style="margin:0 0 0 30px"><i class="far fa-tint fa-2x"></i></p>', 'name' => 'nawodnienia', 'link' => 'nawodnienia,informacja'),
     )
 );
 $s_menuContent = array(
@@ -38,11 +38,33 @@ $s_menuContent = array(
 
 );
 $s_slider = array(
-    '1.jpg' => array(
-        'title' => 'systemy nawadniające',
-        'content' => 'Najwięksi producenci: Rain SPA, Hunter, RainBird, Toro.<br>
-                      Profesjonalne doradztwo. Doświadczenie od ponad 15 lat.<br>
-                      Pełna dostępność towaru w 16 oddziałach'
+    '1-nawadnianie.jpg' => array(
+        'title' => 'Automatyczne systemy nawadniające',
+        'content' => 'Firma AQUA była jedną z pierwszych firm w Polsce wprowadzającą na rynek produkty z branży nawodnieniowej.<br>
+					  Od blisko 20 lat nasza firma dostarcza profesjonalne rozwiązania oparte na doświadczeniach największych producentów tej branży.<br>
+					  Nasza oferta rozbudowana o technikę pompową, kierowana jest do instalatorów, rolnictwa, oraz przemysłu i kopalń (w zakresie zraszaczy przemysłowych).<br>
+					  <br><strong>"Ogrodnictwo to nauka, nauka, nauka. Na tym właśnie polega zabawa. Cały czas się uczysz!"</strong>'
+    ),
+    '2-pompy.jpg' => array(
+        'title' => 'Technika pompowa',
+        'content' => 'Jesteśmy jedną z najstarszych Polskich firm, działających w zakresie techniki pompowej.<br>
+					  Od blisko 40 lat świadczymy usługi serwisowe, kompleksowe doradztwo oraz sprzedaż niemalże każdego urządzenia pompowego.<br>
+					  Współpracujemy z wodociągami, instalatorami (studniarzami), przemysłem, firmami wykonawczymi i handlowymi.<br>
+					  <br><strong>"Jest tylko jeden sposób nauki. Poprzez działanie."</strong>'
+    ),
+    '4-armatura.jpg' => array(
+        'title' => 'Sieci zewnętrzne i armatura',
+        'content' => 'Nasza oferta pozwala obsłużyć najbardziej wymagające inwestycje w zakresie sieci zewnętrznych, armatury wodociągowej i przemysłowej.<br>
+					  Oferujemy pełen wachlarz produktowy od armatury podstawowej do najbardziej zaawansowanych rozwiązań dla każdej aplikacji.<br>
+					  Nasi doradcy techniczni pomogą dobrać najbardziej efektywne rozwiązania zarówno pod względem niezawodności jak i ceny.<br>
+					  <br><strong>"Nie ma na świecie nic równie potężnego jak pomysł, który właśnie nadszedł."</strong>'
+    ),
+    '3-grzewcza.jpg' => array(
+        'title' => 'Technika grzewcza',
+        'content' => 'Oferujemy kompleksowe rozwiązania w zakresie urządzeń i instalacji grzewczych oraz OZE.<br>
+					  Należąc do największej grupy zakupowej w Polsce, dajemy do Państwa dyspozycji pełną gamę produktów największych producentów branży oraz marki własnej Keller, Delfin i Nano Panel.<br>
+					  Gwarantujemy również profesjonalne doradztwo techniczne blisko 60 handlowców w naszych 16 oddziałach.<br>
+					  <br><strong>"Zima jest piękna do pewnego stopnia...Celsjusza."</strong>'
     )
 );
 

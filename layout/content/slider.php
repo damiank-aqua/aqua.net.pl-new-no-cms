@@ -14,10 +14,14 @@
 
                         echo '<div class="carousel-item'.$active.'">';
 
-                        echo '<div class="carousel-caption d-none d-md-block" style="bottom: unset; top: 80px">
-                              <h3>'.$s_slider[$s]['title'].'</h3>
-                              '.($s_slider[$s]['content'] != '' ? '<p>'.$s_slider[$s]['content'].'</p>' : '').'
-                              </div>';
+                        if(isset($s_slider[$s]['title']) and isset($s_slider[$s]['content'])) {
+
+                              echo '<div class="carousel-caption d-none d-md-block" style="bottom: unset; top: 10px">
+                                    <h3>' . $s_slider[$s]['title'] . '</h3>
+                                    ' . ($s_slider[$s]['content'] != '' ? '<p>' . $s_slider[$s]['content'] . '</p>' : '') . '
+                                    </div>';
+
+                        }
 
                         echo '<img class="d-block w-100" src="layout/graphic/slider/'.$s.'" alt="Slider">';
 
