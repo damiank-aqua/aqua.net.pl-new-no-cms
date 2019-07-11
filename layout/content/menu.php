@@ -51,7 +51,7 @@
 
                 foreach ($s_submenu[$content] as $direct => $item) {
 
-                    echo '<div class="col-6 item"><a href="' . $content . ',' . $item['link'] . '" class="'.$direct.'">'.$item['icon'].' '.$item['name'].'</a></div>';
+                    echo '<div class="col-6 item"><a href="' . $content . ',' . $item['link'] . '" class="'.$direct.'">'.$item['icon'].''.$item['name'].'</a></div>';
 
                 }
 
