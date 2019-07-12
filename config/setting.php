@@ -71,24 +71,30 @@ $s_slider = array(
 					  <br><em>Wiktor Hugo</em>'
     )
 );
-
+$s_contentWidth = array(
+    'strona-glowna' => '-fluid'
+);
+//Content shops
 $s_shop = array(
     'zaworyantyskzeniowe-pl' => array(
         'name' => 'zaworyanyskazeniowe.pl',
         'content' => '',
-        'url' => ''),
+        'url' => 'zawory-antyskazeniowe.png'),
     'mac3-pl' => array(
-        'name' => 'zaworyanyskazeniowe.pl',
+        'name' => 'mac3.pl',
         'content' => '',
-        'url' => '')
+        'url' => 'wylaczniki-cisnieniowe.png'),
+    'wymienniki-pl' => array(
+        'name' => 'wymienniki.pl',
+        'content' => '',
+        'url' => 'wymienniki-ciepla.png')
 );
+//Display and order in sections
 $s_shopBox = array(
-    'dla-firm-handlowych' => array(
+    'strona-glowna' => array(
+        'zaworyantyskzeniowe-pl',
         'mac3-pl',
-        'zaworyantyskazeniowe-pl'
-    ),
-    'dla-firm-wykonawczych' => array(
-        'zaworyantyskazeniowe-pl',
-        'mac3-pl'
+        'wymienniki-pl',
+        'zaworyantyskzeniowe-pl',
     )
 );

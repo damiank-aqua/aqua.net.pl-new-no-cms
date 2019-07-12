@@ -1,10 +1,9 @@
 <?php
+$contentWidth = 'container';
+if(isset($s_contentWidth[$content]))
+    $contentWidth .= $s_contentWidth[$content];
 
-echo '<div class="container">';
-
-echo '<div class="row">';
-
-echo '<div class="col-12">';
+echo '<div class="'.$contentWidth.'">';
 
     $dirPath = $content;
 
@@ -18,9 +17,5 @@ echo '<div class="col-12">';
 
     if(is_file($contentFilePath))
         require_once $contentFilePath;
-
-echo '</div>';
-
-echo '</div>';
 
 echo '</div>';

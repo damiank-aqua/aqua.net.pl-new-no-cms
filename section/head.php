@@ -31,4 +31,3 @@
     }
 ?>
 <title><?php echo $titleDisplay; ?></title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sintony">

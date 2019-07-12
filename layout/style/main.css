@@ -21,6 +21,9 @@ li {
   font-family: 'Didact Gothic', sans-serif;
   letter-spacing: 0.5px;
 }
+.row > div {
+  padding: 0;
+}
 .menu-1,
 .menu-2,
 .menu-3 {
@@ -128,10 +131,20 @@ li {
   background-color: #23abf0;
   color: #fff;
 }
+.content .content-back {
+  padding: 5px;
+  background-color: #eee;
+}
+.content .object {
+  border: 6px solid #eee;
+}
+.content .object img {
+  width: 100%;
+}
 .footer {
   width: 100%;
-  color: #fff;
-  background-color: #000;
+  color: #000;
+  background-color: #fff;
   padding: 20px;
   text-align: center;
   min-height: 40%;

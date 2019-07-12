@@ -12,6 +12,9 @@ body, button, a, label, input, span, nav, div, p, ul, li{
     font-family: 'Didact Gothic', sans-serif;
     letter-spacing: 0.5px;
 }
+.row > div{
+    padding: 0;
+}
 .menu-1, .menu-2, .menu-3 {
     padding: 5px 0 5px;
     width: 100%;
@@ -99,11 +102,21 @@ body, button, a, label, input, span, nav, div, p, ul, li{
             color: @white;
         }
     }
+    .content-back{
+        padding: 5px;
+        background-color: @gray-light;
+    }
+    .object{
+        border: 6px solid @gray-light;
+        img{
+            width: 100%;
+        }
+    }
 }
 .footer{
     width: 100%;
-    color: @white;
-    background-color: @black;
+    color: @black;
+    background-color: @white;
     padding: 20px;
     text-align: center;
     min-height: 40%;
