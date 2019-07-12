@@ -97,10 +97,10 @@ li {
   }
 }
 .slide {
-  line-height: 26px;
+  line-height: 22px;
 }
 .slide h3 {
-  font-size: 32px;
+  font-size: 25px;
   font-weight: bolder;
 }
 .slide i {
@@ -108,9 +108,12 @@ li {
   color: #aaa;
 }
 .carousel-caption {
+  bottom: unset;
+  top: 20px;
   color: #000;
   background-color: #fff;
   opacity: 0.8;
+  padding: 0;
 }
 .content .im-breadcrumb {
   padding: 5px;

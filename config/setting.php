@@ -43,28 +43,32 @@ $s_slider = array(
         'content' => 'Firma AQUA była jedną z pierwszych firm w Polsce wprowadzającą na rynek produkty z branży nawodnieniowej.<br>
 					  Od blisko 20 lat nasza firma dostarcza profesjonalne rozwiązania oparte na doświadczeniach największych producentów tej branży.<br>
 					  Nasza oferta rozbudowana o technikę pompową, kierowana jest do instalatorów, rolnictwa, oraz przemysłu i kopalń (w zakresie zraszaczy przemysłowych).<br>
-					  <br><strong>"Ogrodnictwo to nauka, nauka, nauka. Na tym właśnie polega zabawa. Cały czas się uczysz!"</strong>'
+					  <br><strong><em>"Ogrodnictwo to nauka, nauka, nauka. Na tym właśnie polega zabawa. Cały czas się uczysz!"</em></strong>
+					  <br><em>Helen Mirren</em>'
     ),
     '2-pompy.jpg' => array(
         'title' => 'Technika pompowa',
         'content' => 'Jesteśmy jedną z najstarszych Polskich firm, działających w zakresie techniki pompowej.<br>
 					  Od blisko 40 lat świadczymy usługi serwisowe, kompleksowe doradztwo oraz sprzedaż niemalże każdego urządzenia pompowego.<br>
 					  Współpracujemy z wodociągami, instalatorami (studniarzami), przemysłem, firmami wykonawczymi i handlowymi.<br>
-					  <br><strong>"Jest tylko jeden sposób nauki. Poprzez działanie."</strong>'
-    ),
-    '4-armatura.jpg' => array(
-        'title' => 'Sieci zewnętrzne i armatura',
-        'content' => 'Nasza oferta pozwala obsłużyć najbardziej wymagające inwestycje w zakresie sieci zewnętrznych, armatury wodociągowej i przemysłowej.<br>
-					  Oferujemy pełen wachlarz produktowy od armatury podstawowej do najbardziej zaawansowanych rozwiązań dla każdej aplikacji.<br>
-					  Nasi doradcy techniczni pomogą dobrać najbardziej efektywne rozwiązania zarówno pod względem niezawodności jak i ceny.<br>
-					  <br><strong>"Nie ma na świecie nic równie potężnego jak pomysł, który właśnie nadszedł."</strong>'
+					  <br><strong><em>"Jest tylko jeden sposób nauki. Poprzez działanie."</em></strong>
+					  <br><em>Paulo Coelho</em>'
     ),
     '3-grzewcza.jpg' => array(
         'title' => 'Technika grzewcza',
         'content' => 'Oferujemy kompleksowe rozwiązania w zakresie urządzeń i instalacji grzewczych oraz OZE.<br>
 					  Należąc do największej grupy zakupowej w Polsce, dajemy do Państwa dyspozycji pełną gamę produktów największych producentów branży oraz marki własnej Keller, Delfin i Nano Panel.<br>
 					  Gwarantujemy również profesjonalne doradztwo techniczne blisko 60 handlowców w naszych 16 oddziałach.<br>
-					  <br><strong>"Zima jest piękna do pewnego stopnia...Celsjusza."</strong>'
+					  <br><strong>"Zima jest piękna do pewnego stopnia...Celsjusza."</strong>
+					  <br><em>Tadeusz Gicgier</em>'
+    ),
+    '4-armatura.jpg' => array(
+        'title' => 'Sieci zewnętrzne i armatura',
+        'content' => 'Nasza oferta pozwala obsłużyć najbardziej wymagające inwestycje w zakresie sieci zewnętrznych, armatury wodociągowej i przemysłowej.<br>
+					  Oferujemy pełen wachlarz produktowy od armatury podstawowej do najbardziej zaawansowanych rozwiązań dla każdej aplikacji.<br>
+					  Nasi doradcy techniczni pomogą dobrać najbardziej efektywne rozwiązania zarówno pod względem niezawodności jak i ceny.<br>
+					  <br><strong>"Nie ma na świecie nic równie potężnego jak pomysł, który właśnie nadszedł."</strong>
+					  <br><em>Wiktor Hugo</em>'
     )
 );
 

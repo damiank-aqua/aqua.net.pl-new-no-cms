@@ -16,7 +16,7 @@
 
                         if(isset($s_slider[$s]['title']) and isset($s_slider[$s]['content'])) {
 
-                              echo '<div class="carousel-caption d-none d-md-block" style="bottom: unset; top: 10px">
+                              echo '<div class="carousel-caption d-none d-md-block">
                                     <h3>' . $s_slider[$s]['title'] . '</h3>
                                     ' . ($s_slider[$s]['content'] != '' ? '<p>' . $s_slider[$s]['content'] . '</p>' : '') . '
                                     </div>';
