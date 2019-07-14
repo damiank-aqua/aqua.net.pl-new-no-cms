@@ -9,11 +9,11 @@ if(isset($s_shop) and is_array($s_shop) and count($s_shop) > 0) {
 
             if(isset($s_shop[$sb])) {
 
-                echo '<div class="col-12 col-sm-6 col-lg-4 col-xl-3">';
+                echo '<div class="col-12 col-lg-6 col-xl-4">';
 
                     echo '<div class="object">';
 
-                        echo '<img src="layout/graphic/content/'.$s_shop[$sb]['url'].'" alt="'.$s_shop[$sb]['name'].'">';
+                        echo '<img src="layout/graphic/shop/'.$s_shop[$sb]['url'].'" alt="'.$s_shop[$sb]['name'].'">';
 
                     echo '</div>';
 

@@ -79,15 +79,39 @@ $s_shop = array(
     'zaworyantyskzeniowe-pl' => array(
         'name' => 'zaworyanyskazeniowe.pl',
         'content' => '',
-        'url' => 'zawory-antyskazeniowe.png'),
+        'url' => 'on_antysk.png'),
     'mac3-pl' => array(
         'name' => 'mac3.pl',
         'content' => '',
-        'url' => 'wylaczniki-cisnieniowe.png'),
+        'url' => 'on_mac3.png'),
     'wymienniki-pl' => array(
         'name' => 'wymienniki.pl',
         'content' => '',
-        'url' => 'wymienniki-ciepla.png')
+        'url' => 'on_wymienniki.png'),
+    'przepompownie-pomp-pl' => array(
+        'name' => 'przepompownie.pomp.pl',
+        'content' => '',
+        'url' => 'on_przepompow.png'),
+    'nodolini-pl' => array(
+        'name' => 'nodolini.pl',
+        'content' => '',
+        'url' => 'on_nodolini.png'),
+    'tylkopompy-pl' => array(
+        'name' => 'tylkopompy.pl',
+        'content' => '',
+        'url' => 'on_pompy.png'),
+    'grzewcza24-pl' => array(
+        'name' => 'grzewcza24.pl',
+        'content' => '',
+        'url' => 'on_grzewcza.png'),
+    'zraszacze-pl' => array(
+        'name' => 'zraszacze.pl',
+        'content' => '',
+        'url' => 'on_nawod.png'),
+    'elektrozawory-pl' => array(
+        'name' => 'elektrozawory.pl',
+        'content' => '',
+        'url' => 'on_elektroza.png')
 );
 //Display and order in sections
 $s_shopBox = array(
@@ -95,6 +119,11 @@ $s_shopBox = array(
         'zaworyantyskzeniowe-pl',
         'mac3-pl',
         'wymienniki-pl',
-        'zaworyantyskzeniowe-pl',
+        'przepompownie-pomp-pl',
+        'nodolini-pl',
+        'tylkopompy-pl',
+        'grzewcza24-pl',
+        'zraszacze-pl',
+        'elektrozawory-pl'
     )
 );
