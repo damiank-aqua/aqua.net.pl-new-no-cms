@@ -12,8 +12,8 @@ $s_menu = array(
 
 $s_submenu = array(
     'dla-instalatorow' => array(
-        'technika-grzewcza' => array('icon' => '<p style="margin:0 42px 0 0"><i class="far fa-fire-alt fa-2x"></i></p>', 'name' => 'technika grzewcza', 'link' => 'technika-grzewcza,informacja'),
-        'nawodnienia' => array('icon' => '<p style="margin:0 0 0 30px"><i class="far fa-tint fa-2x"></i></p>', 'name' => 'nawodnienia', 'link' => 'nawodnienia,informacja'),
+        'technika-grzewcza' => array('icon' => '<p style="margin:0 42px 0 0"><i class="fad fa-fire-alt fa-2x"></i></p>', 'name' => 'technika grzewcza', 'link' => 'technika-grzewcza,informacja'),
+        'nawodnienia' => array('icon' => '<p style="margin:0 0 0 30px"><i class="fad fa-tint fa-2x"></i></p>', 'name' => 'nawodnienia', 'link' => 'nawodnienia,informacja'),
     )
 );
 $s_menuContent = array(
