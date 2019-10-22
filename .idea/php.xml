@@ -17,6 +17,10 @@
       <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/filp/whoops" />
       <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/psr/log" />
       <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/components/jqueryui" />
+      <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/kriswallsmith/assetic" />
+      <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/robloach/component-installer" />
+      <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/symfony/process" />
+      <path value="C:/wamp64-2019/www/aqua.net.pl/app/composer/vendor/drmonty/animate.css" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />

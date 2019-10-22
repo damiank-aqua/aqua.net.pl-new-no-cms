@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-12" style="padding: 0">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+                <div class="carousel-inner animated zoomIn">
                     <?php
                     $slider = scandir('layout/graphic/slider');
                     $countRowDataDisplay = 0;

@@ -96,7 +96,7 @@
 
 ?>
 
-    <div class="menu-3">
+    <div class="menu-3 animated slideInDown">
 
         <div class="container">
 

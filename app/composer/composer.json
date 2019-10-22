@@ -14,6 +14,7 @@
     "twbs/bootstrap": "v4.3.1",
     "components/jquery": "3.3.1",
     "filp/whoops": "2.3.1",
-    "components/jqueryui": "1.12.1"
+    "components/jqueryui": "1.12.1",
+    "drmonty/animate.css": "3.5.2"
   }
 }

@@ -1,9 +1,9 @@
 <?php
-$contentWidth = 'container';
-if(isset($s_contentWidth[$content]))
-    $contentWidth .= $s_contentWidth[$content];
+//$contentWidth = ' container';
+//if(isset($s_contentWidth[$content]))
+//    $contentWidth .= ' '.$s_contentWidth[$content];
 
-echo '<div class="'.$contentWidth.'">';
+echo '<div class="animated zoomIn container">';
 
     $dirPath = $content;
 
