@@ -133,13 +133,14 @@ li {
 }
 .content .content-back {
   padding: 5px;
-  background-color: #eee;
+  background-color: #fff;
 }
 .content .object {
-  border: 6px solid #eee;
+  border: 6px solid #fff;
 }
 .content .object img {
   width: 100%;
+  border: 1px solid #ddd;
 }
 .footer {
   width: 100%;
