@@ -135,6 +135,10 @@ li {
   padding: 5px;
   background-color: #fff;
 }
+.content .content-back .object {
+  margin: 0 auto;
+  cursor: pointer;
+}
 .content .object {
   border: 6px solid #fff;
 }
@@ -168,5 +172,15 @@ li {
 }
 .clear {
   clear: both;
+}
+.shop-shadow-in {
+  -webkit-box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.49);
+  box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.49);
+}
+.shop-shadow-out {
+  -webkit-box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.49);
+  -moz-box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.49);
+  box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.49);
 }
 /*# sourceMappingURL=main.css.map */
