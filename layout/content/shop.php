@@ -6,24 +6,27 @@ if(isset($s_shop) and is_array($s_shop) and count($s_shop) > 0) {
 
         echo '<div class="row content-back">';
 
-        $lastPadding = array();
-        $objectPadding = array(10, 20, 30, 40, 50, 60, 70, 80, 90);
+//        $lastPadding = array();
+//        $objectPadding = array(10, 20, 30, 40, 50, 60, 70, 80, 90);
         foreach ($s_shopBox[$content] as $sb) {
 
             if(isset($s_shop[$sb])) {
 
-                while(true) {
+//                while(true) {
+//
+//                    $objectPaddingKay = array_rand($objectPadding);
+//
+//                    if(!in_array($objectPaddingKay, $lastPadding))
+//                        break;
+//
+//                }
 
-                    $objectPaddingKay = array_rand($objectPadding);
+                //col-12 col-lg-6
+                echo '<div class="col-12 col-sm-6 col-lg-4 col-1-5">';
 
-                    if(!in_array($objectPaddingKay, $lastPadding))
-                        break;
+                    //$objectPadding[$objectPaddingKay]
 
-                }
-
-                echo '<div class="col-12 col-lg-6 col-xl-4">';
-
-                    echo '<div class="object" style="padding: '.$objectPadding[$objectPaddingKay].'px">';
+                    echo '<div class="object" style="padding: 20px">';
 
                         echo '<img src="layout/graphic/shop/'.$s_shop[$sb]['url'].'" alt="'.$s_shop[$sb]['name'].'" class="shop-shadow-out">';
 
@@ -31,7 +34,7 @@ if(isset($s_shop) and is_array($s_shop) and count($s_shop) > 0) {
 
                 echo '</div>';
 
-                array_push($lastPadding, $objectPaddingKay);
+                //array_push($lastPadding, $objectPaddingKay);
 
             }
 

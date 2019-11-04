@@ -183,4 +183,11 @@ li {
   -moz-box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.49);
   box-shadow: 3px 3px 1px 0px rgba(0, 0, 0, 0.49);
 }
+@media (min-width: 1200px) {
+  .col-1-5 {
+    width: 20% !important;
+    float: left;
+    flex: unset;
+  }
+}
 /*# sourceMappingURL=main.css.map */
