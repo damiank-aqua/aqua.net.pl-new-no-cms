@@ -2,6 +2,13 @@
 
 if(isset($s_shop) and is_array($s_shop) and count($s_shop) > 0) {
 
+	if($module) {
+
+		$contentBuffor = $content;
+
+		$content .= ','.$section;
+
+	}
     if (isset($s_shopBox[$content]) and is_array($s_shopBox[$content]) and count($s_shopBox[$content]) > 0) {
 
         echo '<div class="row content-back">';
@@ -28,7 +35,7 @@ if(isset($s_shop) and is_array($s_shop) and count($s_shop) > 0) {
 
                     echo '<div class="object" style="padding: 20px">';
 
-                        echo '<img src="layout/graphic/shop/'.$s_shop[$sb]['url'].'" alt="'.$s_shop[$sb]['name'].'" class="shop-shadow-out">';
+                        echo '<img src="layout/graphic/shop/'.$s_shop[$sb]['url'].'" alt="'.$s_shop[$sb]['name'].'">';
 
                     echo '</div>';
 
@@ -38,9 +45,11 @@ if(isset($s_shop) and is_array($s_shop) and count($s_shop) > 0) {
 
             }
 
-
         }
         echo '</div>';
     }
+
+    if($module)
+    	$content = $contentBuffor;
 
 }

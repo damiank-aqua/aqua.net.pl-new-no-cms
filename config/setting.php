@@ -125,5 +125,53 @@ $s_shopBox = array(
         'grzewcza24-pl',
         'zraszacze-pl',
         'elektrozawory-pl'
+    ),
+    'dla-firm-handlowych' => array(
+        'zaworyantyskzeniowe-pl',
+        'mac3-pl',
+        'wymienniki-pl',
+        'przepompownie-pomp-pl',
+        'nodolini-pl',
+        'tylkopompy-pl',
+        'grzewcza24-pl',
+        'zraszacze-pl',
+        'elektrozawory-pl'
+    ),
+    'dla-firm-wykonawczych' => array(
+        'zaworyantyskzeniowe-pl',
+        'mac3-pl',
+        'wymienniki-pl',
+        'przepompownie-pomp-pl',
+        'nodolini-pl',
+        'tylkopompy-pl',
+        'grzewcza24-pl',
+        'zraszacze-pl',
+        'elektrozawory-pl'
+    ),
+    'dla-wodociagow' => array(
+        'zaworyantyskzeniowe-pl',
+        'mac3-pl',
+        'przepompownie-pomp-pl',
+        'tylkopompy-pl'
+    ),
+    'dla-przemyslu' => array(
+        'zaworyantyskzeniowe-pl',
+        'mac3-pl',
+        'wymienniki-pl',
+        'przepompownie-pomp-pl',
+        'nodolini-pl',
+        'tylkopompy-pl',
+        'elektrozawory-pl'
+    ),
+    'dla-instalatorow,technika-grzewcza' => array(
+        'wymienniki-pl',
+        'grzewcza24-pl',
+        'tylkopompy-pl',
+        'elektrozawory-pl'
+    ),
+    'dla-instalatorow,nawodnienia' => array(
+        'zraszacze-pl',
+        'nodolini-pl',
+        'tylkopompy-pl'
     )
 );
